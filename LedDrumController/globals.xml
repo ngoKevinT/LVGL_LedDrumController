@@ -12,7 +12,7 @@
     </styles>
 
     <subjects>
-        <!-- Add <int>, <string>, or <float> subjects here -->
+        <int name="screen_changer" initial="0"/>
     </subjects>
 
     <images>

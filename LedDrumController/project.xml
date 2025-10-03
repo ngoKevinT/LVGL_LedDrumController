@@ -2,6 +2,11 @@
     <targets>
         <target name="target1">
             <display width="320" height="240"/>
+            <screen_changer subject="screen_changer" initial_screen="loading_screen">
+                <screen name="loading_screen"/>
+                <screen name="main_screen"/>
+                <screen name="settings_screen"/>
+            </screen_changer>
         </target>
     </targets>
 </project>
