@@ -12,7 +12,7 @@
     </styles>
 
     <subjects>
-        <int name="screen_changer" initial="0"/>
+        <!-- <int name="screen_changer" initial="0"/> -->
     </subjects>
 
     <images>

@@ -1,6 +1,0 @@
-<screen>
-    <label text="Settings" align="center" valign="top"/>
-    <button on_click_event="true" on_click="screen_changer:set(1)">
-        <label text="Back"/>
-    </button>
-</screen>
