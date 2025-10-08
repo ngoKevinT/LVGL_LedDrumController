@@ -1,0 +1,6 @@
+<component>
+   <view flex_flow="column" width="100%" height="100%">
+        <simple_btn label_text="MODE UP" />
+        <simple_btn label_text="MODE DOWN" />
+   </view>
+</component>
