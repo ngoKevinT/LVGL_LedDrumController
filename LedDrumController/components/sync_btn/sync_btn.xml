@@ -1,0 +1,32 @@
+<component>
+	<api>
+		<prop name="label_text" type="string" default="Click Me" />
+	</api>
+
+	<styles>
+		<style
+			name="style_base"
+			bg_opa="100%"
+			bg_color="0xBBBBBB"
+			width="500"
+			height="60"
+			border_width="1"
+			border_color="0x000000"
+			border_opa="255"
+			pad_hor="0"
+			pad_ver="0"
+			text_color="0x000"
+		/>
+
+		<style name="style_pressed" recolor="0xFFF" recolor_opa="20%" />
+	</styles>
+
+	<view extends="lv_button">
+		<remove_style_all />
+
+		<style name="style_base" />
+		<style name="style_pressed" selector="pressed" />
+
+		<lv_label text="SYNC COLOR &amp; MODE" align="center" />
+	</view>
+</component>

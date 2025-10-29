@@ -1,25 +1,35 @@
 <globals>
-    <api>
-        <!-- Add <enumdefs> here -->
-    </api>
+	<api>
+		<!-- Add <enumdefs> here -->
+	</api>
 
-    <consts>
-        <!-- Add <px>, <int>, <color> etc here -->
-    </consts>
+	<consts>
+		<!-- Add <px>, <int>, <color> etc here -->
+	</consts>
 
-    <styles>
-        <!-- Add <style> tags here -->
-    </styles>
+	<styles>
+		<!-- Add <style> tags here -->
+	</styles>
 
-    <subjects>
-        <!-- <int name="screen_changer" initial="0"/> -->
-    </subjects>
+	<subjects>
+		<!-- <int name="screen_changer" initial="0"/> -->
+	</subjects>
 
-    <images>
-        <!-- Add <file> or <data> tags here -->
-    </images>
+	<images>
+		<!-- Add <file> or <data> tags here -->
 
-    <fonts>
-        <!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
-    </fonts>
+		<!-- Wallpapers -->
+		<data name="wallpaper_1" src_path="images/wallpaper1.jpg" color_format="rgb565" />
+		<data name="wallpaper_2" src_path="images/wallpaper2.jpg" color_format="rgb565" />
+		<data name="wallpaper_3" src_path="images/wallpaper3.jpg" color_format="rgb565" />
+		<data name="wallpaper_4" src_path="images/wallpaper4.jpg" color_format="rgb565" />
+
+		<!-- Icons -->
+		<data name="settings" src_path="images/settings.jpg" color_format="rgb565" />
+		<data name="drumSettings" src_path="images/drumSettings.jpg" color_format="rgb565" />
+	</images>
+
+	<fonts>
+		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
+	</fonts>
 </globals>

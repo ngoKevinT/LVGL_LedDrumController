@@ -1,9 +1,14 @@
 <screen permanent="true">
-    <styles>
-        <style name="large_btn" bg_color="0x00688A" />
-    </styles>
+	<styles>
+		<!-- <style name="main" pad_all="0" border_width="0" radius="0" layout="flex" flex_flow="column" pad_row="0" /> -->
+	</styles>
 
-    <view width="100%" height="100%">
-        <simple_btn label_text="MODE UP"/>
-    </view>
+	<view flex_flow="column" width="100%" height="100%" style_pad_all="20">
+		<!-- <row> -->
+		<!-- </row> -->
+		<color_ctrl />
+		<mode_ctrl />
+		<!-- <simple_btn label_text="SYNC COLOR & MODE" /> -->
+		<sync_btn />
+	</view>
 </screen>
